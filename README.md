@@ -1,4 +1,4 @@
-# kaggle-competitions
+# Kaggle Competitions
 House Price Prediction and Home Credit Default Risk Prediction competitions on Kaggle.
 
 My ranks/scores on the competitions can be viewed at the end of each file.
