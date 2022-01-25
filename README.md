@@ -16,3 +16,52 @@ In House Prices Prediction, I ranked **816/5011,** with an error of **0.12549,**
 In Credit Default Risk Prediction, I scored **0.73610,** compared to the best score of **0.81724.** Ranking was unavailable.
 
 ![Screenshot 2022-01-24 114853](https://user-images.githubusercontent.com/21691211/150891233-2f12c150-693a-4c3e-97d8-1e3bb62961c2.png)
+
+My submissions can be accessed from the *submissions* folder.
+
+## Problem description
+The problems are well detailed in the kaggle links provided above.
+
+## Solution approach
+### House Prices Prediction
+The following models for regression are tested:
+
+- `Ridge`
+- `BaggingRegressor`
+  - `n_estimators=50`
+- `RandomForestRegressor`
+  - `n_estimators=50`
+- `XGBRegressor`
+  - `max_depth=5`
+  - `objective='reg:squarederror'`
+- `LGBMRegressor`
+- `VotingRegressor`
+  - `estimators=[ridge, bagging, random_forest, xgb, lgbm]`
+- `StackingRegressor`
+  - `estimators=[ridge, bagging, random_forest, xgb, lgbm]`
+  - `final_estimator=Ridge`
+
+Hyperparameters:
+
+- `train_test_split(test_size=0.2, random_state=0)`
+- `kfold = KFold(n_splits=5, shuffle=True, random_state=0)`
+- `cross_val_score(cv=kfold)`
+
+`VotingRegressor` turns out as the best performing, with the best combined **Validation R<sup>2</sup> score, RMSLE and Cross validation R<sup>2</sup> mean score.**
+
+### Credit Default Risk Prediction
+The following models for classification are tested:
+
+- `XGBClassifier`
+- `LGBMClassifier`
+- `RandomForestClassifier`
+  - `n_estimators=50`
+- `StackingClassifier`
+  - `estimators=[xgb, lgbm, random_forest]`
+  - `final_estimator=LGBMClassifier`
+
+**Note:** *`StackingClassifier` takes a lot of computation power and time, therefore, using GPU is recommended.*
+
+Hyperparameter: `train_test_split(test_size=0.2, random_state=42)`
+
+`LGBMClassifier` turns out as the best performing, with the best **Validation AUROC score.**
