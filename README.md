@@ -32,7 +32,7 @@ The problems are well detailed in the kaggle links provided above.
     <img alt="Open In Colab" src="https://colab.research.google.com/assets/colab-badge.svg">
 </a>
 
-The following models for regression are tested:
+After **Feature engineering,** the following models for regression are tested:
 
 - `Ridge`
 - `BaggingRegressor`
@@ -49,7 +49,7 @@ The following models for regression are tested:
   - `estimators=[ridge, bagging, random_forest, xgb, lgbm]`
   - `final_estimator=Ridge`
 
-Hyperparameters:
+**Hyperparameters:**
 
 - `train_test_split(test_size=0.2, random_state=0)`
 - `kfold = KFold(n_splits=5, shuffle=True, random_state=0)`
@@ -62,7 +62,7 @@ Hyperparameters:
     <img alt="Open In Colab" src="https://colab.research.google.com/assets/colab-badge.svg">
 </a>
 
-The following models for classification are tested:
+After **Feature engineering,** the following models for classification are tested:
 
 - `XGBClassifier`
 - `LGBMClassifier`
@@ -74,6 +74,6 @@ The following models for classification are tested:
 
 **Note:** *`StackingClassifier` takes a lot of computation power and time, therefore, using GPU is recommended.*
 
-Hyperparameter: `train_test_split(test_size=0.2, random_state=42)`
+**Hyperparameter:** `train_test_split(test_size=0.2, random_state=42)`
 
 `LGBMClassifier` turns out as the best performing, with the best **Validation AUROC score.**
