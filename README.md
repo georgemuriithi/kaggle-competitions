@@ -24,6 +24,10 @@ The problems are well detailed in the kaggle links provided above.
 
 ## Solution approach
 ### House Prices Prediction
+<a href="https://colab.research.google.com/drive/1S1iZ_7c9rMUBq7pxDLEIuCWKvlFgCxod?usp=sharing">
+    <img alt="Open In Colab" src="https://colab.research.google.com/assets/colab-badge.svg">
+</a>
+
 The following models for regression are tested:
 
 - `Ridge`
@@ -50,6 +54,10 @@ Hyperparameters:
 `VotingRegressor` turns out as the best performing, with the best combined **Validation R<sup>2</sup> score, RMSLE and Cross validation R<sup>2</sup> mean score.**
 
 ### Credit Default Risk Prediction
+<a href="https://colab.research.google.com/drive/1VjyZn-19NobsggKJ8Wf-hmNIDWSRym9n?usp=sharing">
+    <img alt="Open In Colab" src="https://colab.research.google.com/assets/colab-badge.svg">
+</a>
+
 The following models for classification are tested:
 
 - `XGBClassifier`
