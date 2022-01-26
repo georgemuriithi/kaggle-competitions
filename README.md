@@ -19,7 +19,7 @@ In House Prices Prediction, I ranked **816/5011,** with an error of **0.12549,**
 
 In Credit Default Risk Prediction, I scored **0.73610,** compared to the best score of **0.81724.** Ranking was unavailable.
 
-![Screenshot 2022-01-24 114853](https://user-images.githubusercontent.com/21691211/150891233-2f12c150-693a-4c3e-97d8-1e3bb62961c2.png)
+![Screenshot 2022-01-26 220705](https://user-images.githubusercontent.com/21691211/151168378-80fbd534-1054-4a55-9d5f-9175b9ce3bdf.png)
 
 My submissions can be accessed from the *submissions* folder.
 
