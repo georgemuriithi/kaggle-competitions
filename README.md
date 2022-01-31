@@ -45,9 +45,11 @@ After **Feature engineering,** the following models for regression are tested:
 - `LGBMRegressor`
 - `VotingRegressor`
   - `estimators=[ridge, bagging, random_forest, xgb, lgbm]`
+  - `n_jobs=-1`
 - `StackingRegressor`
   - `estimators=[ridge, bagging, random_forest, xgb, lgbm]`
   - `final_estimator=Ridge`
+  - `n_jobs=-1`
 
 **Hyperparameters:**
 
