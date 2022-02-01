@@ -67,15 +67,19 @@ After **Feature engineering,** the following models for regression are tested:
 After **Feature engineering,** the following models for classification are tested:
 
 - `XGBClassifier`
+  - `tree_method='gpu_hist'`
+  - `gpu_id=0`
 - `LGBMClassifier`
+  - `device='gpu'`
 - `RandomForestClassifier`
   - `n_estimators=50`
 - `StackingClassifier`
   - `estimators=[xgb, lgbm, random_forest]`
   - `final_estimator=LGBMClassifier`
+  - `n_jobs=-1`
 
-**Note:** *`StackingClassifier` takes a lot of computation power and time, therefore, using GPU is recommended.*
+**Note:** *GPU is leveraged because classification takes a lot of computation power and time.*
 
 **Hyperparameter:** `train_test_split(test_size=0.2, random_state=42)`
 
-`LGBMClassifier` turns out as the best performing, with the best **Validation AUROC score.**
+`LGBMClassifier` turns out as the best performing, with the maximum **Validation AUROC score.**
