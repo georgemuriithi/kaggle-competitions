@@ -60,7 +60,7 @@ After **Feature engineering,** the following models for regression are tested:
 `VotingRegressor` turns out as the best performing, with the best combined **Validation R<sup>2</sup> score, RMSLE and Cross validation R<sup>2</sup> mean score.**
 
 ### Credit Default Risk Prediction
-<a href="https://colab.research.google.com/drive/1VjyZn-19NobsggKJ8Wf-hmNIDWSRym9n?usp=sharing">
+<a href="https://drive.google.com/file/d/1bzBmgxkyW3fRk8G08hWYHvbIlTSeo5n6/view?usp=sharing">
     <img alt="Open In Colab" src="https://colab.research.google.com/assets/colab-badge.svg">
 </a>
 
@@ -78,7 +78,7 @@ After **Feature engineering,** the following models for classification are teste
   - `final_estimator=LGBMClassifier`
   - `n_jobs=-1`
 
-**Note:** *GPU is leveraged because classification takes a lot of computation power and time.*
+***Note:** GPU is leveraged because classification takes a lot of computation power and time.*
 
 **Hyperparameter:** `train_test_split(test_size=0.2, random_state=42)`
 
