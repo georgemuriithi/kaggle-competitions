@@ -23,11 +23,11 @@ In Credit Default Risk Prediction, I scored **0.73610,** compared to the best sc
 
 My submissions can be accessed from the *submissions* folder.
 
-## Problem description
+## Problem Description
 The problems are well detailed in the kaggle links provided above.
 
-## Solution approach
-### House Prices Prediction
+## Solution Approach
+### <a href="https://github.com/georgemuriithi/kaggle-competitions/blob/main/House-Prices-Prediction.ipynb">House Prices Prediction</a>
 <a href="https://colab.research.google.com/drive/1S1iZ_7c9rMUBq7pxDLEIuCWKvlFgCxod?usp=sharing">
     <img alt="Open In Colab" src="https://colab.research.google.com/assets/colab-badge.svg">
 </a>
@@ -59,7 +59,7 @@ After **Feature engineering,** the following models for regression are tested:
 
 `VotingRegressor` turns out as the best performing, with the best combined **Validation R<sup>2</sup> score, RMSLE and Cross validation R<sup>2</sup> mean score.**
 
-### Credit Default Risk Prediction
+### <a href="https://github.com/georgemuriithi/kaggle-competitions/blob/main/Credit-Default-Risk-Prediction.ipynb">Credit Default Risk Prediction</a>
 <a href="https://colab.research.google.com/drive/1HqGHxtlR9y3O98MZx5kM3vAdohcATKHU?usp=sharing">
     <img alt="Open In Colab" src="https://colab.research.google.com/assets/colab-badge.svg">
 </a>
