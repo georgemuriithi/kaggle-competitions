@@ -28,7 +28,7 @@ The problems are well detailed in the kaggle links provided above.
 
 ## Solution approach
 ### House Prices Prediction
-<a href="https://colab.research.google.com/drive/1S1iZ_7c9rMUBq7pxDLEIuCWKvlFgCxod?usp=sharing">
+<a href="https://colab.research.google.com/drive/1S1iZ_7c9rMUBq7pxDLEIuCWKvlFgCxod?usp=sharing" target="_blank">
     <img alt="Open In Colab" src="https://colab.research.google.com/assets/colab-badge.svg">
 </a>
 
@@ -60,7 +60,7 @@ After **Feature engineering,** the following models for regression are tested:
 `VotingRegressor` turns out as the best performing, with the best combined **Validation R<sup>2</sup> score, RMSLE and Cross validation R<sup>2</sup> mean score.**
 
 ### Credit Default Risk Prediction
-<a href="https://drive.google.com/file/d/1bzBmgxkyW3fRk8G08hWYHvbIlTSeo5n6?usp=sharing">
+<a href="https://colab.research.google.com/drive/1HqGHxtlR9y3O98MZx5kM3vAdohcATKHU?usp=sharing" target="_blank">
     <img alt="Open In Colab" src="https://colab.research.google.com/assets/colab-badge.svg">
 </a>
 
