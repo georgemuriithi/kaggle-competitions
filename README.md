@@ -1,5 +1,9 @@
 # Kaggle Competitions
 
+<a href="https://github.com/georgemuriithi/kaggle-competitions/blob/main/LICENSE">
+    <img alt="License" src="https://img.shields.io/github/license/georgemuriithi/kaggle-competitions.svg?color=blue&cachedrop">
+</a>
+
 Participated in **House Prices Prediction** and **Credit Default Risk Prediction** competitions.
 
 https://www.kaggle.com/c/house-prices-advanced-regression-techniques
