@@ -1,7 +1,4 @@
 # Kaggle Competitions
-<a href="https://github.com/georgemuriithi/kaggle-competitions/blob/main/LICENSE">
-    
-</a>
 
 Participated in **House Prices Prediction** and **Credit Default Risk Prediction** competitions.
 
