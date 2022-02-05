@@ -1,6 +1,6 @@
 # Kaggle Competitions
 <a href="https://github.com/georgemuriithi/kaggle-competitions/blob/main/LICENSE">
-    <img alt="License" src="https://img.shields.io/github/license/georgemuriithi/shale-gas-wells.svg?color=blue&cachedrop">
+    
 </a>
 
 Participated in **House Prices Prediction** and **Credit Default Risk Prediction** competitions.
