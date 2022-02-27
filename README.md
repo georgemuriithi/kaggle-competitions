@@ -79,8 +79,8 @@ After **Feature engineering,** the following models for classification are teste
   - `final_estimator=LGBMClassifier`
   - `n_jobs=-1`
 
-***Note:** GPU is leveraged because classification task takes a lot of computation power and time.*
-
 **Hyperparameter:** `train_test_split(test_size=0.2, random_state=42)`
+
+*Resources leveraged from **Google Colab:** 2 CPUs, 1 GPU. Classification task takes a lot of computation power and time.*
 
 `LGBMClassifier` turns out as the best performing, with the maximum **Validation AUROC score.**
