@@ -25,7 +25,7 @@ In Credit Default Risk Prediction, I scored **0.73610,** compared to the best sc
 My submissions can be accessed from the *submissions* folder.
 
 ## Problem Description
-The problems are well detailed in the kaggle links provided above.
+The problems are detailed well in the Kaggle links provided above.
 
 ## Solution Approach
 ### <a href="https://github.com/georgemuriithi/kaggle-competitions/blob/main/House-Prices-Prediction.ipynb">House Prices Prediction</a>
@@ -33,7 +33,7 @@ The problems are well detailed in the kaggle links provided above.
     <img alt="Open In Colab" src="https://colab.research.google.com/assets/colab-badge.svg">
 </a>
 
-After **Feature engineering,** the following models for regression are tested:
+After **Feature engineering,** the following regression models are tested:
 
 - `Ridge`
 - `BaggingRegressor`
@@ -58,14 +58,14 @@ After **Feature engineering,** the following models for regression are tested:
 - `kfold = KFold(n_splits=5, shuffle=True, random_state=0)`
 - `cross_val_score(cv=kfold)`
 
-`VotingRegressor` turns out as the best performing, with the best combined **Validation R<sup>2</sup> score, RMSLE and Cross validation R<sup>2</sup> mean score.**
+`VotingRegressor` is the best performing, with the best combined **Validation R<sup>2</sup> score, RMSLE and Cross validation R<sup>2</sup> mean score.**
 
 ### <a href="https://github.com/georgemuriithi/kaggle-competitions/blob/main/Credit-Default-Risk-Prediction.ipynb">Credit Default Risk Prediction</a>
 <a href="https://colab.research.google.com/drive/1HqGHxtlR9y3O98MZx5kM3vAdohcATKHU?usp=sharing">
     <img alt="Open In Colab" src="https://colab.research.google.com/assets/colab-badge.svg">
 </a>
 
-After **Feature engineering,** the following models for classification are tested:
+After **Feature engineering,** the following classification models are tested:
 
 - `XGBClassifier`
   - `tree_method='gpu_hist'`
@@ -81,6 +81,6 @@ After **Feature engineering,** the following models for classification are teste
 
 **Hyperparameter:** `train_test_split(test_size=0.2, random_state=42)`
 
-***GPU** is leveraged. Classification task takes a lot of computation power and time.*
+***GPU** is leveraged. Classification requires more computation power.*
 
-`LGBMClassifier` turns out as the best performing, with the maximum **Validation AUROC score.**
+`LGBMClassifier` is the best performing, with the maximum **Validation AUROC score.**
