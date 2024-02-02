@@ -10,7 +10,7 @@ https://www.kaggle.com/c/house-prices-advanced-regression-techniques
 
 https://www.kaggle.com/c/home-credit-default-risk
 
-In both, **advanced decision tree-based models** for regression and classification are used.
+In both, **advanced decision tree-based** regression and classification models are used.
 
 In House Prices Prediction, performance evaluation is based on **RMSLE (Root Mean Squared Logarithmic Error),** while in Credit Default Risk Prediction, it is based on **AUROC (Area Under Receiver Operating Characteristic).**
 
